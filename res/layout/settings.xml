@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" android:background="@drawable/greycomb_tile_repeat" android:padding="5dp" android:weightSum="4" android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/daterange" android:contentDescription="@string/img_cont_desc_filter_icon" android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:id="@+id/spinnerDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:entries="@array/date_filter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSortBy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageViewSortBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sortorder" android:contentDescription="@string/img_cont_desc_filter_icon" android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:id="@+id/spinnerSortBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:entries="@array/sort_filter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageViewCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/categories" android:contentDescription="@string/img_cont_desc_filter_icon" android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:entries="@array/category_filter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageViewRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/proximityradius" android:contentDescription="@string/img_cont_desc_filter_icon" android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:id="@+id/spinnerRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:entries="@array/radius_filter"/>
+
+    </LinearLayout>
+
+</LinearLayout>

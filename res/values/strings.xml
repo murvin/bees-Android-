@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Bees</string>
+    <string name="app_name">Bees</string>
+    <string name="app_ver">v 1.0</string>
+    <string name="app_copyright">© Destiny Technologies</string>
+    <string name="app_site">www.buddybees.co.uk</string>
+    <string name="all_events_from">All events from the industry leader Eventful</string>
+    <string name="eventful_site">www.eventful.com</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="img_cont_desc_bot_honeycomb">bottom honeycomb</string>
+    <string name="img_cont_desc_bee_logo">bee logo</string>
+    <string name="img_cont_desc_divider">divider image</string>
+    <string name="img_cont_desc_shadow_bg">white bg</string>
+    <string name="img_cont_desc_loading_bee">loading bee</string>
+    <string name="img_cont_desc_filter_icon">filter icon</string>
+    <string name="ok">OK</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_more">More</string>
+    <string name="menu_map">Directions</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_list">List</string>
+    <string name="menu_bees">Bees</string>
+    <string name="event">Event</string>
+    <string name="results">results</string>
+    <string name="of">of</string>
+    <string name="for_word">for</string>
+    <string name="page">Page</string>
+    <string name="exit_confirm">Are you sure you want to exit</string>
+    <string name="fetching_events">Fetching events for</string>
+    <string name="please_wait">Please wait until the request is complete.</string>
+    <string name="no_more_events">No more events on this page.</string>
+    <string name="first_event_reached">You have reached the first event of this page.</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="gps_disabled">Your GPS seems to be disabled. Please press Settings button to edit your settings under My Location option.</string>
+    <string name="location_undetermined">Your location could not be determined. Please ensure your location sources such as GPS and networks are enabled.</string>
+    <string name="map_centered_lastknown">The map has been centered according to your last known location. Event search is based on the center of the map.</string>
+    <string name="map_centered_last_search">The map has been centered according to your last search request. Event search is based on the center of the map.</string>
+    <string name="no_events_found">No events were found for the search. Please try a different keyword or change the search filters.</string>
+    <string name="about_disclaimer">All rights reserved. Destiny Technologies and Eventful are not liable for any damage incurred from the use of this software.</string>
+    <string name="share_body_prefix">Please check this event out.</string>
+    <string name="share_subject">Event from Eventful</string>
+    <string name="empty_list_option">The list of events is currently empty. Please make a new search before using this option.</string>
+    <string name="empty_list">The list of events is empty.</string>
+    <string name="event_has_no_location">Unfortunately this event does not have specific coordinates.</string>
+    <string name="event_parsing_error">Some error occurred while parsing the response from Eventful. Please try a different keyword.</string>
+    <string name="event_search_timeout">The request has timed out with the Eventful server. Please ensure you have enough internet access.</string>
+    <string name="no_next_content">There are no further pages for this search. Please try a different keyword.</string>
+    <string name="under_category">under category</string>
+    <string name="select_calendar">Please select a calendar</string>
+    <string name="sub_menu_help">Some help tips to get You going.</string>
+    <string name="enter_event_keyword">Please enter a keyword to initiate a search. The search is based on the center of the map.</string>
+
+    <!-- terms and conditions -->
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="eula">Terms And Conditions</string>
+    <string name="introduction_title">INTRODUCTION</string>
+    <string name="introduction">The use of the SOFTWARE PRODUCT is subject to the terms and conditions detailed below. you have to accept those terms in order to use the application.</string>
+    <string name="copyright_title">COPYRIGHT</string>
+    <string name="copyright">All title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by Destiny Technologies. All title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by Destiny Technologies.</string>
+    <string name="no_warranties_title">NO WARRANTIES</string>
+    <string name="no_warranties">Destiny Technologies expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided (As Is) without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. Destiny Technologies does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT. Destiny Technologies makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. Destiny Technologies further expressly disclaims any warranty or representation to Authorized Users or to any third party.</string>
+    <string name="limitation_liability_title">LIMITATION OF LIABILITY</string>
+    <string name="limitation_liability">In no event shall Destiny Technologies be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of Authorized Users use of or inability to use the SOFTWARE PRODUCT, even if Destiny Technologies has been advised of the possibility of such damages. In no event will Destiny Technologies be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Destiny Technologies shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.</string>
+    <string name="termination_title">TERMINATION</string>
+    <string name="termination">Without prejudice to any other rights, Destiny Technologies may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.</string>
+
+    <string-array name="date_filter">
+        <item>Future</item>
+        <item>Past</item>
+        <item>Today</item>
+        <item>Last Week</item>
+        <item>This Week</item>
+        <item>Next Week</item>
+    </string-array>
+    <string-array name="sort_filter">
+        <item>Popularity</item>
+        <item>Relevance</item>
+        <item>Date</item>
+    </string-array>
+    <string-array name="category_filter">
+        <item>All</item>
+        <item>Conferences</item>
+        <item>Education</item>
+        <item>Family</item>
+        <item>Festivals</item>
+        <item>Film</item>
+        <item>Food</item>
+        <item>Fundraisers</item>
+        <item>Galleries</item>
+        <item>Health</item>
+        <item>Literary</item>
+        <item>Museums</item>
+        <item>Neighborhood</item>
+        <item>Networking</item>
+        <item>Nightlife</item>
+        <item>On Campus</item>
+        <item>Organizations</item>
+        <item>Outdoors</item>
+        <item>Performing Arts</item>
+        <item>Pets</item>
+        <item>Politics</item>
+        <item>Sales</item>
+        <item>Science</item>
+        <item>Spirituality</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="radius_filter">
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>25 miles</item>
+        <item>50 miles</item>
+        <item>75 miles</item>
+        <item>100 miles</item>
+    </string-array>
+    <string-array name="help_titles">
+        <item>Location Based Search</item>
+        <item>Downloading Next Page</item>
+        <item>Changing Search Filters</item>
+        <item>View Event Details</item>
+        <item>Saving Event To Calendar</item>
+        <item>Getting Event Directions</item>
+        <item>Sharing Event Link</item>
+    </string-array>
+    <string-array name="help_desc">
+        <item>All searches are localized based on the center of your map. When you type a keyword the default search filters are applied and the map center is used as your location. Events are displayed on the map and listed on the bottom horizontal list. Both are click-able and will navigate to the list view.</item>
+        <item>Events are paginated in pages of 30 items. You can see which page you are currently viewing from the top action bar label (1). To download the next available page you can simply hit the More button (2) on the top action bar.</item>
+        <item>You can change event search filters such as category, date, sorting style and proximity radius on the list screen top section (1). Once changed a new search is launched based on your last keyword and the updated filters. You can play along and discover what filters get you the most results.</item>
+        <item>The event list screen shows all event details on a horizontal list (1) with a list preview on the left (2). You can buy tickets for the event (3) from the details page. Any further selection on the details page will take you to the Eventul corresponding website.</item>
+        <item>You can save an event directly to your device calendar by selecting the Calendar context menu option on the top action bar (1). This option will open up the Event entry application (2) that will allow you to further edit the event details before saving.</item>
+        <item>Most events from Eventful have precise geolocations and as such you can have a door to door journey navigation to the event by selecting the Directions option from the top action bar (1). This will call the device built in map handler (2) to assist you in the journey.</item>
+        <item>The top share context menu option (1) allows you to send the event web link via as many handlers as your device possesses. Some examples are Email, Bluetooth and Facebook. (2)</item>
+    </string-array>
+
+</resources>

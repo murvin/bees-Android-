@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ab_white_bg" >
+
+        <ImageButton
+            android:id="@+id/imageButtonHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ab_home_selector"
+            android:contentDescription="@string/img_cont_desc_bee_logo" />
+
+        <TextView
+            android:id="@+id/textViewActionBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignTop="@id/imageButtonHome"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageButtonHome"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewActionBarTitle"
+            android:layout_toLeftOf="@+id/linearLayoutSearch"
+            android:layout_toRightOf="@id/imageButtonHome"
+            android:lines="1"
+            android:textColor="#555555"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/linearLayoutAbout"
+            android:orientation="horizontal" android:background="@drawable/menu_bg_selector" android:paddingBottom="4dp" android:paddingRight="15dp" android:paddingTop="4dp" android:paddingLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageViewAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/img_cont_desc_bee_logo"
+                android:src="@drawable/ic_menu_help" />
+
+            <TextView
+                android:id="@+id/textViewHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/menu_help"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/linearLayoutHelp"
+            android:orientation="horizontal" android:background="@drawable/menu_bg_selector" android:paddingBottom="4dp" android:paddingRight="15dp" android:paddingTop="4dp" android:paddingLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageViewList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_menu_list" />
+
+            <TextView
+                android:id="@+id/textViewList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/menu_list"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/linearLayoutList"
+            android:orientation="horizontal" android:background="@drawable/menu_bg_selector" android:paddingBottom="4dp" android:paddingRight="15dp" android:paddingTop="4dp" android:paddingLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageViewMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_menu_more" />
+
+            <TextView
+                android:id="@+id/textViewMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/menu_more"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/linearLayoutMore"
+            android:background="@drawable/menu_bg_selector"
+            android:orientation="horizontal" android:paddingBottom="4dp" android:paddingRight="15dp" android:paddingTop="4dp" android:paddingLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageViewSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_menu_search" />
+
+            <TextView
+                android:id="@+id/textViewSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/menu_search"
+                android:textColor="#000000"
+                android:textSize="18dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapViewMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayoutBgBottom"
+        android:layout_below="@+id/linearLayoutActionBar"
+        android:apiKey="0HoiEKQyuYnSqySJ7_e0hkYFPnBXykxZdhLhgiQ"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBgBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottom_tile_repeat"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="5dp" >
+
+        <com.bees.widgets.HorizontialListView
+            android:id="@+id/listviewEvents"
+            android:layout_width="fill_parent"
+            android:layout_height="148dp"
+            android:paddingTop="5dp" >
+        </com.bees.widgets.HorizontialListView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewEventfulLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutBgBottom"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/img_cont_desc_bot_honeycomb"
+        android:src="@drawable/eventful_logo" />
+
+</RelativeLayout>

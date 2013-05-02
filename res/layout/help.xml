@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/greycomb_tile_repeat" android:id="@+id/RelativeLayoutContent">
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/ab_white_bg">
+
+        <ImageButton
+            android:id="@+id/imageButtonHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_cont_desc_bee_logo" android:background="@drawable/ab_home_selector" android:layout_marginRight="5dp"/>
+
+      <TextView
+            android:id="@+id/textViewActionBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignTop="@id/imageButtonHome"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageButtonHome"
+            android:textColor="#000000"
+            android:textSize="18dp" android:text="@string/menu_help"/>
+
+        <TextView
+            android:id="@+id/textViewSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewActionBarTitle"
+            android:layout_toLeftOf="@+id/linearLayoutMore"
+            android:layout_toRightOf="@id/imageButtonHome"
+            android:lines="1"
+            android:text="@string/sub_menu_help"
+            android:textColor="#555555"
+            android:textSize="14dp" />
+        
+        
+        <LinearLayout
+            android:id="@+id/linearLayoutAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" android:paddingBottom="4dp" android:paddingLeft="15dp" android:paddingRight="15dp" android:paddingTop="4dp" android:background="@drawable/menu_bg_selector">
+
+            <ImageView
+                android:id="@+id/imageViewAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_menu_about" />
+
+            <TextView
+                android:id="@+id/textViewAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/menu_about"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Gallery
+        android:id="@+id/galleryViewHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayoutActionBar" />
+
+    <ImageView
+        android:id="@+id/imageViewHelpBee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/galleryViewHelp"
+        android:layout_alignLeft="@+id/galleryViewHelp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/helpbee" android:contentDescription="@string/img_cont_desc_bee_logo" android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
+

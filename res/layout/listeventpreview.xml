@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp" android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imageViewBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/img_cont_desc_shadow_bg"
+        android:src="@drawable/shadow_selector" />
+
+    <ImageView
+        android:id="@+id/imageViewEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewBg"
+        android:layout_alignLeft="@+id/imageViewBg"
+        android:layout_alignRight="@+id/imageViewBg"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/img_cont_desc_loading_bee"
+        android:src="@drawable/bee_loading" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textViewDate"
+        android:layout_toRightOf="@+id/imageViewBg"
+        android:textColor="#426674" android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTitle"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/textViewDistance" android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#fd6b00" android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textViewDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" android:textSize="15dp"/>
+
+</RelativeLayout>

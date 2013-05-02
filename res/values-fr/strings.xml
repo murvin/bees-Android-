@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Salut Bees</string>
+    <string name="app_name">Bees</string>
+    <string name="app_ver">v 1.0</string>
+    <string name="app_copyright">© Destiny Technologies</string>
+    <string name="app_site">www.buddybees.co.uk</string>
+    <string name="all_events_from">Tous les événements fournis par Eventful</string>
+    <string name="eventful_site">www.eventful.com</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_help">Guide</string>
+    <string name="img_cont_desc_bot_honeycomb">bottom honeycomb</string>
+    <string name="img_cont_desc_bee_logo">bee logo</string>
+    <string name="img_cont_desc_divider">divider image</string>
+    <string name="img_cont_desc_shadow_bg">white bg</string>
+    <string name="img_cont_desc_loading_bee">loading bee</string>
+    <string name="img_cont_desc_filter_icon">filter icon</string>
+    <string name="ok">OK</string>
+    <string name="menu_home">Menu</string>
+    <string name="menu_more">Plus</string>
+    <string name="menu_map">Directions</string>
+    <string name="menu_calendar">Calendrier</string>
+    <string name="menu_list">Liste</string>
+    <string name="menu_bees">Bees</string>
+    <string name="event">Evénement</string>
+    <string name="results">resultats</string>
+    <string name="of">de</string>
+    <string name="for_word">pour</string>
+    <string name="page">Page</string>
+    <string name="exit_confirm">Voulez vous quitter</string>
+    <string name="fetching_events">Recherche de données sur</string>
+    <string name="please_wait">Veuillez patienter s\'il vous plaît.</string>
+    <string name="no_more_events">Pas plus d\'événement sur cette page.</string>
+    <string name="first_event_reached">Vous êtes sur le premier événement de la page.</string>
+    <string name="cancel">Annuler</string>
+    <string name="settings">Paramètres</string>
+    <string name="gps_disabled">Votre GPS semble être désactivé. Veuillez appuyez sur le bouton Paramètres pour modifier vos paramètres sous l\'option Ma positon.</string>
+    <string name="location_undetermined">Votre position n\'a pu être déterminée. Veuillez vous assurer que vos sources de localisation comme le GPS et les réseaux sont activés.</string>
+    <string name="map_centered_lastknown">La carte a été centrée en fonction de votre dernière position connue. La recherche d\'un événement est basé sur le centre de la carte.</string>
+    <string name="map_centered_last_search">La carte a été centrée en fonction de votre demande de recherche dernier. La recherche d\'un événement est basé sur le centre de la carte.</string>
+    <string name="no_events_found">Aucun événement n\'a été trouvé pour la recherche. Veuillez essayer un autre mot-clé ou changer les filtres de recherche.</string>
+    <string name="about_disclaimer">Tous droits réservés. Destiny Technologies et Eventful ne sont pas responsable de tout dommage résultant de l\'utilisation de ce logiciel.</string>
+    <string name="share_body_prefix">Veuillez vérifiez cette événement.</string>
+    <string name="share_subject">Evénements de Eventful</string>
+    <string name="empty_list_option">La liste des événements est actuellement vide. Veuillez faire une nouvelle recherche avant d\'utiliser cette option.</string>
+    <string name="empty_list">La liste des événements est actuellement vide.</string>
+    <string name="event_has_no_location">Cette événement n\'a pas les coordonnées précises malheureusement.</string>
+    <string name="event_parsing_error">Une erreur s\'est produite lors de l\'analyse de la réponse de la part Eventful. Veuillez essayer un autre mot-clé s\'il vous plaît.</string>
+    <string name="event_search_timeout">La demande a expiré avec le serveur Eventful. Veuillez vous assurer que vous avez un accès suffisant à l\'Internet.</string>
+    <string name="no_next_content">Il n\'y a pas d\'autres pages pour cette recherche. Veuillez essayer un autre mot-clé s\'il vous plaît.</string>
+    <string name="under_category">sous la catégorie</string>
+    <string name="select_calendar">Veuillez selecter un calendrier</string>
+    <string name="sub_menu_help">Quelques conseils pour vous aider.</string>
+    <string name="enter_event_keyword">Veuillez entrez un mot-clé pour lancer une recherche. La recherche est basée sur le centre de la carte.</string>
+
+    <!-- terms and conditions -->
+    <string name="accept">Accepter</string>
+    <string name="decline">Décliner</string>
+    <string name="eula">Conditions générales de vente</string>
+    <string name="introduction_title">INTRODUCTION</string>
+    <string name="introduction">L\'utilisation du PRODUIT LOGICIEL est soumis aux termes et conditions détaillées ci-dessous. Vous devez accepter ces termes dans le but d\'utiliser l\'application.</string>
+    <string name="copyright_title">DROIT D\'AUTEUR</string>
+    <string name="copyright">Tous les titres, y compris mais sans s\'y limiter les droits d\'auteur, à l\'intérieur et au PRODUIT LOGICIEL et toutes les copies de ceux-ci sont la propriété de Destiny Technologies. Tous les titres et droits de propriété intellectuelle et au contenu qui peut être consulté grâce à l\'utilisation du PRODUIT LOGICIEL est la propriété du propriétaire du contenu respectif et peuvent être protégés par droits d\'auteur ou autres droits de propriété intellectuelle et des traités. La présente conditions générales de vente ne vous concède aucun droit d\'utiliser un tel contenu. Tous les droits non expressément concédés sont réservés par Destiny Technologies.</string>
+    <string name="no_warranties_title">AUCUNE GARANTIE</string>
+    <string name="no_warranties">Destiny Technologies décline expressément toute garantie pour le PRODUIT LOGICIEL. Le PRODUIT LOGICIEL est fourni (telle quelle) sans aucune garantie, expresse ou implicite d\'aucune sorte, y compris mais non limité à toute garantie de qualité marchande, d\'absence de contrefaçon, ou de remise en forme à un usage particulier. Destiny Technologies ne garantit pas et n\'assume aucune responsabilité pour l\'exactitude ou l\'exhaustivité des informations, textes, graphiques, liens ou autres éléments contenus dans le PRODUIT LOGICIEL. Destiny Technologies ne donne aucune garantie concernant les dommages pouvant être causés par la transmission d\'un virus informatique, un ver, bombe à retardement, bombe logique, ou tout autre programme d\'ordinateur tel. Destiny Technologies décline expressément toute garantie ou représentation pour les utilisateurs autorisés ou à toute tierce partie.</string>
+    <string name="limitation_liability_title">LIMITATION DE RESPONSABILITE</string>
+    <string name="limitation_liability">En aucun cas, Destiny Technologies ne peux être tenue responsable des dommages (y compris, sans s\'y limiter, la perte de profits, interruption d\'activité, ou perte d\'information) la hausse sur les utilisateurs autorisés d\'utiliser ou de l\'incapacité à utiliser le PRODUIT LOGICIEL, même si Destiny Technologies a été avisé de la possibilité de tels dommages. En aucun cas, Destiny Technologies ne sera pas responsable de la perte de données ou des dommages indirects, spéciaux, accessoires, consécutifs (y compris les profits perdus), ou un autre sur la base contractuelle, délictuelle ou autrement.</string>
+    <string name="termination_title">RÉSILIATION</string>
+    <string name="termination">Destiny Technologies peut résilier les termes et conditions sans préjudice de tous autres droits si vous ne respectez pas les termes et conditions. Dans un tel cas, vous devez détruire toutes les copies du PRODUIT LOGICIEL en votre possession.</string>
+
+    <string-array name="date_filter">
+        <item>Future</item>
+        <item>Past</item>
+        <item>Today</item>
+        <item>Last Week</item>
+        <item>This Week</item>
+        <item>Next Week</item>
+    </string-array>
+    <string-array name="sort_filter">
+        <item>Popularity</item>
+        <item>Relevance</item>
+        <item>Date</item>
+    </string-array>
+    <string-array name="category_filter">
+        <item>All</item>
+        <item>Conferences</item>
+        <item>Education</item>
+        <item>Family</item>
+        <item>Festivals</item>
+        <item>Film</item>
+        <item>Food</item>
+        <item>Fundraisers</item>
+        <item>Galleries</item>
+        <item>Health</item>
+        <item>Literary</item>
+        <item>Museums</item>
+        <item>Neighborhood</item>
+        <item>Networking</item>
+        <item>Nightlife</item>
+        <item>On Campus</item>
+        <item>Organizations</item>
+        <item>Outdoors</item>
+        <item>Performing Arts</item>
+        <item>Pets</item>
+        <item>Politics</item>
+        <item>Sales</item>
+        <item>Science</item>
+        <item>Spirituality</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="radius_filter">
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>25 miles</item>
+        <item>50 miles</item>
+        <item>75 miles</item>
+        <item>100 miles</item>
+    </string-array>
+    <string-array name="help_titles">
+        <item>Recherche basée sur la localisation</item>
+        <item>Téléchargement des pages suivantes.</item>
+        <item>Changement des paramètres de recherche</item>
+        <item>Les détails d\'un événement</item>
+        <item>Enregistrer un événement dans le calendrier</item>
+        <item>les directions d\'un événement</item>
+        <item>Partager un événement</item>
+    </string-array>
+    <string-array name="help_desc">
+        <item>Toutes les recherches sont localisées a partir du centre de votre carte. Lorsque vous tapez un mot-clé les filtres de recherche sont appliquées et le centre de la carte est utilisée comme votre emplacement. Les événements sont affichés sur la carte et figure sur la liste horizontale inférieure. Les deux sont cliquables et vous permettent d\'accédez à l\'affichage de la liste.</item>
+        <item>Les événements sont paginés dans les pages de 30 articles. Vous pouvez voir la page que vous consultez actuellement sur ​​l\'étiquette barre d\'action supérieure (1). Pour télécharger la page suivante disponible, vous pouvez simplement cliquer sur le bouton Plus (2) sur la barre d\'action en haut.</item>
+        <item>Vous pouvez changer les filtres de recherche d\'événements tels que la catégorie, la date, le style de tri et de rayon de proximité sur la partie supérieure de la liste. Une fois changé une nouvelle recherche est lancée sur la base de votre dernier mot-clé et les nouveaux filtres. Vous pouvez ajuster les filtres pour obtenir le plus de résultats.</item>
+        <item>L\'écran de liste d\'événements affiche tous les détails de l\'événement sur ​​une liste horizontale (1) avec un aperçu liste sur la gauche (2). Vous pouvez acheter des billets pour l\'événement (3) de la page de détails. Toute autre sélection sur la page de détails vous amènera sur le site correspondant Eventul.</item>
+        <item>Vous pouvez enregistrer un événement directement à votre calendrier en sélectionnant l\'option de menu Calendrier contexte sur la barre d\'action supérieure (1). Cette option va ouvrir l\'application d\'entrée de l\'événement (2) qui vous permettra de continuer à éditer les détails de l\'événement avant d\'enregistrer.</item>
+        <item>La plupart des événements de Eventful ont des géolocalisations précises. En tant que telle, vous pouvez avoir une navigatio porte à porte de l\'événement en sélectionnant l\'option Directions de la barre d\'action supérieure (1). Cela va appeler le dispositif construit dans le gestionnaire de la carte (2) pour vous aider dans le voyage.</item>
+        <item>L\'option supérieure Partager du menu contextuel (1) vous permet d\'envoyer le lien de l\'événement par l\'intermédiaire de nombreux gestionnaires que votre appareil possède. Quelques exemples sont Email, Bluetooth et Facebook. (2)</item>
+    </string-array>
+
+</resources>

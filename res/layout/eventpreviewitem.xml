@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="148dp"
+    android:layout_height="match_parent" android:id="@+id/previewContainer">
+
+    <ImageView
+        android:id="@+id/imageViewShadow"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/img_cont_desc_shadow_bg"
+        android:src="@drawable/shadow"/>
+
+    <ImageView
+        android:id="@+id/imageViewLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/img_cont_desc_loading_bee"
+        android:src="@drawable/bee_loading" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewShadow"
+        android:layout_alignLeft="@id/imageViewShadow"
+        android:layout_alignRight="@id/imageViewShadow"
+        android:layout_alignTop="@id/imageViewShadow"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="70dp"
+        android:background="#55000000"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewEventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:textColor="#ffffff" android:layout_alignTop="@id/linearLayoutTrans" android:layout_margin="5dp" android:layout_alignRight="@id/linearLayoutTrans" android:layout_alignLeft="@id/linearLayoutTrans" android:lines="3" android:textSize="15dp"/>
+
+</RelativeLayout>
